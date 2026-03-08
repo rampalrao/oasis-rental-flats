@@ -1,0 +1,64 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.container{
+width:90%;
+margin:auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+margin:20px;
+padding:15px;
+width:300px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+background:#007BFF;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.main-img{
+width:100%;
+max-width:700px;
+display:block;
+margin:auto;
+}
+
+ul{
+line-height:1.8;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#222;
+color:white;
+margin-top:30px;
+}
